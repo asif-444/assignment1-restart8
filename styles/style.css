@@ -90,7 +90,7 @@ header h3 {
     height: 600px;
     margin: auto;
     color: azure;
-    
+
 }
 
 .welcome-to-the-party {
@@ -108,9 +108,11 @@ header h3 {
 
 /* time & venue section styles */
 
-.party-mode-on{
+.party-mode-on {
     padding-top: 100px;
+    padding-bottom: 100px;
 }
+
 .party-invitation {
     text-align: center;
     padding-top: 100px;
@@ -120,11 +122,46 @@ header h3 {
     margin-left: auto;
     margin-right: auto;
     border-radius: 16px;
-    
+
 }
 
 .party-invitation-description {
     font-family: Inter;
     font-size: 20px;
     font-weight: 500;
+}
+
+/* coming soon section styles */
+.offer-coming-soon {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1320px;
+    height: 300px;
+    margin: auto;
+}
+
+
+.offer-text {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.coming-soon {
+    font-family: Merriweather;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.group-photo{
+    border: 10px solid #F00;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+.new-year{
+    font-family: Inter;
+    font-size: 33px;
+    font-weight: 900px;
 }
