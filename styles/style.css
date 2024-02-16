@@ -1,0 +1,44 @@
+/* google fonts */
+* {
+    font-family: "Inter", "Merriweather", serif, sans-serif;
+    font-weight: 100 - 900;
+    font-style: normal;
+}
+
+/* header section styles */
+header {
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(27, 27, 48, 0.363) 50%, rgb(20, 8, 8) 100%),
+        url(../resources/Banner\ Image.png);
+    border-radius: 16px;
+    width: 1320px;
+    height: 600px;
+    margin: auto;
+}
+
+header p {
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+    color: azure;
+
+}
+
+header h3 {
+    font-size: 72px;
+    font-weight: 700;
+    color: azure;
+    text-align: center;
+    
+}
+
+.header-div {
+    font-family: Merriweather;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+/* discount section styles */
+.discount-section{
+    justify-content: center;
+    align-items: center;
+}
