@@ -5,6 +5,21 @@
     font-style: normal;
 }
 
+/* shared style */
+.primary-color {
+    color: #F00;
+}
+
+.primary-btn {
+    background-color: #F00;
+    padding: 8px 15px;
+    color: azure;
+    font-family: Inter;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 0px;
+}
+
 /* header section styles */
 header {
     background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(27, 27, 48, 0.363) 50%, rgb(20, 8, 8) 100%),
@@ -28,7 +43,7 @@ header h3 {
     font-weight: 700;
     color: azure;
     text-align: center;
-    
+
 }
 
 .header-div {
@@ -38,7 +53,78 @@ header h3 {
 }
 
 /* discount section styles */
-.discount-section{
+.discount-section {
+    text-align: center;
     justify-content: center;
     align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.discount-photo {
+    width: 600px;
+    height: 500px;
+}
+
+.discount-amount {
+    font-size: 48px;
+}
+
+.second-line-discount {
+    font-weight: 500;
+}
+
+.categories {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/* midnight party section styles */
+.midnight-party {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(98deg, rgba(0, 0, 0, 0.255) 0%, rgb(44, 28, 28) 35%, rgba(49, 18, 18, 0) 62%), url(../resources/party.png);
+    width: 1320px;
+    height: 600px;
+    margin: auto;
+    color: azure;
+    
+}
+
+.welcome-to-the-party {
+    font-family: Merriweather;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 7px;
+}
+
+.midnight-definition {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/* time & venue section styles */
+
+.party-mode-on{
+    padding-top: 100px;
+}
+.party-invitation {
+    text-align: center;
+    padding-top: 100px;
+    background: linear-gradient(6deg, rgba(255, 255, 255, 0.669) 0%, rgba(214, 156, 156, 0.806) 100%);
+    width: 1320px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
+    
+}
+
+.party-invitation-description {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
 }
