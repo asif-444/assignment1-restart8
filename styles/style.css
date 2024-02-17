@@ -229,6 +229,10 @@ header h3 {
     margin: 5px;
 }
 
+.portfolio-images .last-attempt:hover{
+    visibility: hidden;
+}
+
 /* subscription section */
 .subscription-section {
     text-align: center;
