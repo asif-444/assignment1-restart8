@@ -35,7 +35,6 @@ header p {
     font-weight: 400;
     text-align: center;
     color: azure;
-
 }
 
 header h3 {
@@ -43,7 +42,6 @@ header h3 {
     font-weight: 700;
     color: azure;
     text-align: center;
-
 }
 
 .header-div {
@@ -90,7 +88,6 @@ header h3 {
     height: 600px;
     margin: auto;
     color: azure;
-
 }
 
 .welcome-to-the-party {
@@ -122,7 +119,6 @@ header h3 {
     margin-left: auto;
     margin-right: auto;
     border-radius: 16px;
-
 }
 
 .party-invitation-description {
@@ -158,7 +154,6 @@ header h3 {
     border: 10px solid #F00;
     border-radius: 50%;
     padding: 10px;
-
 }
 
 .new-year {
@@ -189,14 +184,13 @@ header h3 {
     align-items: center;
     margin: auto;
     padding-top: 25px;
-
 }
 
 .surprisebox {
     width: 600px;
     position:relative;
     top: 60px;
-    
+    left: 45px;
 }
 
 .discounted-price {
@@ -213,7 +207,6 @@ header h3 {
 .orange-pallete {
     width: 1320px;
     margin-top: -55px;
-    
 }
 
 /* portfolio section styles */
@@ -248,7 +241,6 @@ header h3 {
     padding-top: 100px;
     border-radius: 16px;
     font-family: Merriweather;
-
 }
 
 .user-mail {
@@ -274,8 +266,6 @@ footer {
     width: 93%;
     padding: 50px;
     margin-top: 100px;
-
-
 }
 
 .footer-main-div {
@@ -288,7 +278,6 @@ footer {
     display: flex;
     gap: 10px;
     align-items: center;
-
 }
 
 .minishow img {
@@ -300,7 +289,6 @@ footer {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-
 }
 
 .social-logo img {
