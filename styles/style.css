@@ -210,3 +210,38 @@ header h3 {
     width: 1320px;
     margin-top: -55px;
 }
+
+/* portfolio section styles */
+.portfolio-section{
+    margin: auto;
+    padding-top: 480px;
+    width: 1320px;
+    height: 1200px;
+}
+
+/* subscription section */
+.subscription-section{
+    text-align: center;
+    background-color: rgb(255, 238, 238);
+    height: 500px;
+    width: 1320px;
+    margin: auto;
+    padding-top: 100px;
+    border-radius: 16px;
+
+}
+
+.user-mail{
+    padding: 10px;
+    width:240px;
+    height: 27px;
+    border: none;
+    border-radius: 25px;
+}
+
+.user-submit-btn{
+    padding: 15px;
+    border-radius: 0 25px 25px 0;
+    margin-left: -25px;
+    width: 150px;
+}
