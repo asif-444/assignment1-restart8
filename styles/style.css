@@ -150,24 +150,25 @@ header h3 {
 
 .coming-soon {
     font-family: Merriweather;
-    font-size: 28px;
-    font-weight: 600;
+    font-size: 33px;
+    font-weight: 800;
 }
 
-.group-photo{
+.group-photo {
     border: 10px solid #F00;
     border-radius: 50%;
     padding: 10px;
 
 }
-.new-year{
+
+.new-year {
     font-family: Inter;
     font-size: 33px;
     font-weight: 900px;
 }
 
 /* holiday section styles */
-.holiday-section{
+.holiday-section {
     margin: auto;
     padding-top: 150px;
     width: 1320px;
@@ -175,73 +176,131 @@ header h3 {
     text-align: center;
 }
 
-.holiday-text, .holiday-sale{
+.holiday-text,
+.holiday-sale {
     font-family: Merriweather;
     font-size: 35px;
     font-weight: 800;
 }
 
-.holiday-sales-pic{
+.holiday-sales-pic {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: auto;
     padding-top: 25px;
-   
+
 }
 
-.surprisebox{
+.surprisebox {
     width: 600px;
     background: white;
-    
-
 }
 
-.discounted-price{
+.discounted-price {
     padding-right: 20px;
 }
 
-.surprised-customer{
+.surprised-customer {
     padding-right: 8px;
     width: 400px;
 }
 
-.orange-pallete{
+.orange-pallete {
     width: 1320px;
     margin-top: -55px;
 }
 
 /* portfolio section styles */
-.portfolio-section{
+.portfolio-section {
     margin: auto;
     padding-top: 480px;
     width: 1320px;
     height: 1200px;
 }
 
+.awesome {
+    font-family: Merriweather;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.portfolio-images img {
+    margin: 5px;
+}
+
 /* subscription section */
-.subscription-section{
+.subscription-section {
     text-align: center;
     background-color: rgb(255, 238, 238);
-    height: 500px;
+    height: 480px;
     width: 1320px;
     margin: auto;
     padding-top: 100px;
     border-radius: 16px;
+    font-family: Merriweather;
 
 }
 
-.user-mail{
+.user-mail {
     padding: 10px;
-    width:240px;
+    width: 240px;
     height: 27px;
     border: none;
     border-radius: 25px;
 }
 
-.user-submit-btn{
+.user-submit-btn {
     padding: 15px;
     border-radius: 0 25px 25px 0;
     margin-left: -25px;
     width: 150px;
+}
+
+/* footer section */
+footer {
+    background-color: rgb(0, 0, 22);
+    color: azure;
+    height: 400px;
+    width: 93%;
+    padding: 50px;
+    margin-top: 100px;
+
+
+}
+
+.footer-main-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mini1,
+.mini2 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.minishow img {
+    height: 24px;
+    width: 24px;
+}
+
+.social-logo p {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.social-logo img {
+    height: 45px;
+    width: 45px;
+    margin: 8px;
+}
+
+.final-div {
+    display: flex;
+    justify-content: space-between;
 }
